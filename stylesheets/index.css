@@ -8,7 +8,7 @@
     --primary-color: #FA8072;
     --secondary-color: #000;
     --primary-font: 'JetBrains Mono', monospace;
-    --secondary-font: 'Loved by the King', cursive;
+    --secondary-font: 'Macondo', cursive;
 }
 
 .main {
@@ -25,18 +25,19 @@
 }
 
 .left {
-    display: flex;
     width: 60%;
     min-height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
 }
 
 .left h2 {
     font-size: 5rem;
     color: #000;
     font-family: var(--secondary-font);
+    font-weight: normal;
 }
 
 .right {
@@ -153,9 +154,11 @@
     }
 
     .left {
+        text-align: center;
         background-color: antiquewhite;
         width: 115%;
         height: 40%;
+        padding: 1rem 5rem;
         transform: rotate(-5deg);
         background-color: #FA8072;
     }

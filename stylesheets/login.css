@@ -8,7 +8,7 @@
     --primary-color: #FA8072;
     --secondary-color: #000;
     --primary-font: 'JetBrains Mono', monospace;
-    --secondary-font: 'Loved by the King', cursive;
+    --secondary-font: 'Macondo', cursive;
 }
 
 .main {
@@ -56,7 +56,7 @@
 .right h2 {
     font-size: 2rem;
     font-weight: normal;
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
 }
 
 .login-form {
