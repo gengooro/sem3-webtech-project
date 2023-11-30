@@ -119,10 +119,6 @@
     font-weight: lighter;
 }
 
-/* .spot {
-    display: none;
-} */
-
 .login-button h4 span {   
     font-weight: bold;
 }
@@ -149,14 +145,16 @@
         overflow-x: hidden;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         background: var(--secondary-color);
     }
 
     .left {
+        margin-top: 3rem;
+        text-align: center;
         background-color: antiquewhite;
         width: 115%;
         height: 40%;
+        padding: 1rem 5rem;
         transform: rotate(-5deg);
         background-color: #FA8072;
     }
@@ -167,16 +165,17 @@
         font-size: xx-large;
     }
 
-    /* .spot {
-        background-color: var(--secondary-color);
-        display: flex;
-        width: 115%;
-        transform: rotate(-5deg);
-    } */
-
     .right {
         width: 100%;
         min-height: 50%;
         overflow-x: hidden;
+    }
+
+    .login-button {
+        width: 85%;
+    }
+
+    .login-button h4 {
+        text-align: center;
     }
 }
